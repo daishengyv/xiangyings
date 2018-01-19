@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-size: 0;
+}
+.img {
+  background-image: url(../images/bg2.png);
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  vertical-align: top;
+}
+.clearFix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+span,
+dfn {
+  display: inline-block;
+  vertical-align: top;
+}
+input {
+  padding: 0;
+  border: 0;
+  vertical-align: top;
+  outline: none;
+}
+i {
+  display: inline-block;
+  background-image: url(../images/bg2.png);
+  background-repeat: no-repeat;
+}
+em {
+  display: inline-block;
+  vertical-align: top;
+  font-style: normal;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
